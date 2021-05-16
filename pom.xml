@@ -8,15 +8,20 @@
         <version>2.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>spring-time-in-kotlin-episode-1</artifactId>
+
+    <groupId>demo</groupId>
+    <artifactId>spring-time-in-kotlin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-time-in-kotlin-episode-1</name>
+    <name>spring-time-in-kotlin</name>
     <description>Demo project for Spring Boot</description>
+
     <properties>
         <java.version>11</java.version>
         <kotlin.version>1.4.32</kotlin.version>
+        <mockk.version>1.11.0</mockk.version>
+        <springmockk.version>3.0.1</springmockk.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,12 +58,12 @@
         <dependency>
             <groupId>io.mockk</groupId>
             <artifactId>mockk</artifactId>
-            <version>1.11.0</version>
+            <version>${mockk.version}</version>
         </dependency>
         <dependency>
             <groupId>com.ninja-squad</groupId>
             <artifactId>springmockk</artifactId>
-            <version>3.0.1</version>
+            <version>${springmockk.version}</version>
         </dependency>
     </dependencies>
 
